@@ -1,0 +1,12 @@
+bod {
+  background-color: cadetblue;
+}
+
+button {
+  border-style: none;
+  color: rgb(49, 33, 33);
+  font-family: "Alata", sans-serif;
+  font-size: 50px;
+  display: block;
+  margin: 100px auto;
+}

@@ -1,0 +1,78 @@
+/* ----------Spinner 1----------  */
+
+:root {
+  --background-color-down: rgb(0, 102, 255);
+  --background-color-up: rgb(163, 200, 255);
+  --width: 100px;
+  --border-radius: 100px;
+  --margin: 5px;
+}
+
+body {
+  padding: 10px;
+}
+
+a {
+  font-family: "Alata", sans-serif;
+  font-size: 22px;
+  position: absolute;
+  color: black;
+}
+
+.container_spinners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 200px;
+}
+
+.container_spinner1 {
+  display: flex;
+}
+
+.circle_1 {
+  width: var(--width);
+  height: var(--width);
+  background-color: var(--background-color-down);
+  border-radius: var(--border-radius);
+  margin: var(--margin);
+  -webkit-animation: up-and-down 1s 0.1s ease-in infinite alternate;
+}
+
+.circle_2 {
+  width: var(--width);
+  height: var(--width);
+  background-color: var(--background-color-down);
+  border-radius: var(--border-radius);
+  margin: var(--margin);
+  -webkit-animation: up-and-down 1s 0.3s ease-in infinite alternate;
+}
+
+.circle_3 {
+  width: var(--width);
+  height: var(--width);
+  background-color: var(--background-color-down);
+  border-radius: var(--border-radius);
+  margin: var(--margin);
+  -webkit-animation: up-and-down 1s 0.5s ease-in infinite alternate;
+}
+
+.circle_4 {
+  width: var(--width);
+  height: var(--width);
+  background-color: var(--background-color-down);
+  border-radius: var(--border-radius);
+  margin: var(--margin);
+  -webkit-animation: up-and-down 1s 0.7s ease-in infinite alternate;
+}
+
+@-webkit-keyframes up-and-down {
+  from {
+    margin-top: 5px;
+    background-color: var(--background-color-down);
+  }
+  to {
+    margin-top: 100px;
+    background-color: var(--background-color-up);
+  }
+}
