@@ -26,13 +26,13 @@ a {
 
 /* ---------------------Button 1 -----------------------*/
 
-.button_movesleft {
+.button--movesleft {
   background: rgb(195, 195, 235);
   border: 3px solid rgb(77, 77, 94);
   color: rgb(14, 14, 24);
 }
 
-.button_movesleft:hover {
+.button--movesleft:hover {
   -webkit-animation: moves-left 0.5s ease infinite alternate;
 }
 
@@ -47,14 +47,14 @@ a {
 
 /* ---------------------Button 2 -----------------------*/
 
-.button_glows {
+.button--glows {
   background: rgb(240, 240, 240);
   color: rgb(12, 12, 37);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   border: none;
 }
 
-.button_glows:hover {
+.button--glows:hover {
   -webkit-animation: glows 0.5s ease infinite alternate;
 }
 
@@ -73,13 +73,13 @@ a {
 
 /* ---------------------Button 3 -----------------------*/
 
-.button_beats {
+.button--beats {
   background: white;
   color: red;
   border: 7px double red;
 }
 
-.button_beats:hover {
+.button--beats:hover {
   -webkit-animation: beats 0.5s ease infinite alternate;
 }
 
